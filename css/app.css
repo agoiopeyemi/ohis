@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p, h1 {
+  color: #253031; }
+
+.containerLogoSubtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.logoHeading {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 15px; }
+
+.mainHeading {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: center; }
+
+.headerContent {
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto 40px; }
+
+.container {
+  padding: 40px 0 30px;
+  background: #E5E5E5; }
+
+.wrapperCompany {
+  padding: 40px 20px 30px;
+  background: #0099FF; }
+
+.wrapperExecutive {
+  padding: 20px;
+  background: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.containerCompany {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px; }
+
+.companySubtitle {
+  font-size: 20px;
+  color: #1954EC;
+  line-height: 22px; }
+
+.companyTitle {
+  color: #000;
+  margin: 10px 0;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: bold;
+  text-transform: capitalize; }
+
+.companyDescription {
+  width: 80%;
+  font-size: 20px;
+  color: #80898A;
+  line-height: 29px; }
+
+.governor {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%; }
+
+.executiveDescription {
+  font-size: 22px;
+  color: #253031;
+  line-height: 36px;
+  text-align: center;
+  width: 90%;
+  margin: 40px 0; }
+
+.governorName {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px; }
+
+.containerInputBtn {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto; }
+
+.headerInput {
+  font-size: 16px;
+  color: #80898A;
+  line-height: 19px;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background: #EBEBEB;
+  border: 1px solid #EBEBEB; }
+
+.headerButton {
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  padding: 20px;
+  border-radius: 5px;
+  background: #0099FF;
+  border: 1px solid #0099FF; }
+
+/*# sourceMappingURL=app.css.map */
