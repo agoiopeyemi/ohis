@@ -1,0 +1,40 @@
+.wrapperPolicy {
+    padding: 40px 20px;
+    background: #E7EFF5;
+}
+.containerPolicy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.policyHeading {
+    font-size: 28px;
+    color: #0099FF;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.policyTitle {
+    font-size: 20px;
+    color: #80898A;
+    line-height: 29px;
+}
+.containerPolicyContent {
+    padding: 40px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+.civilService {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.civilAmount {
+    font-size: 36px;
+    color: #0099FF;
+    font-weight: 900;
+    margin: 15px 15px;
+    line-height: 43px;
+}
+
