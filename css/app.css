@@ -192,76 +192,60 @@ p, h1 {
   text-align: center;
   margin-bottom: 35px; }
 
-.containerPolicyContent {
-  padding: 40px;
-  border-radius: 10px;
-  background: #ffffff; }
-
-.civilService {
-  font-size: 22px;
-  line-height: 36px;
-  font-weight: bold; }
-
-.civilAmount {
-  font-size: 36px;
-  color: #0099FF;
-  font-weight: 900;
-  margin: 15px 0;
-  line-height: 43px; }
-
 .slider {
-  overflow: hidden; }
-
-.slider figure div {
   width: 100%;
-  float: left; }
+  background: #FFF;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto; }
 
-.slider figure containerPolicy {
+.slide {
   width: 100%;
-  float: left; }
+  flex-shrink: 0;
+  margin: 20px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column; }
 
-.slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  animation: 20s slidy infinite; }
+.slide > div {
+  scroll-snap-align: start; }
 
-@keyframes slidy {
-  0% {
-    left: 0%; }
-  10% {
-    left: 0%; }
-  12% {
-    left: -100%; }
-  22% {
-    left: -100%; }
-  24% {
-    left: -200%; }
-  34% {
-    left: -200%; }
-  36% {
-    left: -300%; }
-  46% {
-    left: -300%; }
-  48% {
-    left: -400%; }
-  58% {
-    left: -400%; }
-  60% {
-    left: -300%; }
-  70% {
-    left: -300%; }
-  72% {
-    left: -200%; }
-  82% {
-    left: -200%; }
-  84% {
-    left: -100%; }
-  94% {
-    left: -100%; }
-  96% {
-    left: 0%; } }
+.heading {
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 36px; }
+
+.amount {
+  font-size: 36px;
+  font-weight: 900;
+  color: #0099FF;
+  line-height: 43px;
+  margin: 15px 0 20px; }
+
+.packages {
+  font-size: 16px;
+  color: #80898A;
+  line-height: 29px; }
+
+.containerPolicyBtn {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center; }
+
+.policyButton {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 19px;
+  padding: 20px 50px;
+  border-radius: 5px;
+  background: #0099FF;
+  border: 1px solid #0099FF; }
+
 .wrapperFooter {
   padding: 40px;
   font-size: 18px;
